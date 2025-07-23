@@ -1,0 +1,442 @@
+[
+  {
+    "_index": "packets-2025-07-18",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{CD5770EC-40D1-4639-B277-7940F4C24DFB}",
+            "frame.interface_description": "WLAN"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-07-18T03:06:58.439759000Z",
+          "frame.time_utc": "2025-07-18T03:06:58.439759000Z",
+          "frame.time_epoch": "2025-07-18T03:06:58.439759000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp"
+        },
+        "eth": {
+          "eth.dst": "4c:5f:70:01:1e:13",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_01:1e:13",
+            "eth.dst.oui": "5005168",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "4c:5f:70:01:1e:13",
+            "eth.addr_resolved": "Intel_01:1e:13",
+            "eth.addr.oui": "5005168",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "e0:5d:54:12:5c:2e",
+          "eth.src_tree": {
+            "eth.src_resolved": "RuijieNetwor_12:5c:2e",
+            "eth.src.oui": "14703956",
+            "eth.src.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "e0:5d:54:12:5c:2e",
+            "eth.addr_resolved": "RuijieNetwor_12:5c:2e",
+            "eth.addr.oui": "14703956",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0xc63e",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "51",
+          "ip.proto": "6",
+          "ip.checksum": "0x7ca9",
+          "ip.checksum.status": "2",
+          "ip.src": "122.195.90.178",
+          "ip.addr": "122.195.90.178",
+          "ip.src_host": "122.195.90.178",
+          "ip.host": "122.195.90.178",
+          "ip.dst": "192.168.110.202",
+          "ip.addr": "192.168.110.202",
+          "ip.dst_host": "192.168.110.202",
+          "ip.host": "192.168.110.202",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "7826",
+          "tcp.dstport": "59326",
+          "tcp.port": "7826",
+          "tcp.port": "59326",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "1",
+          "tcp.completeness": "0",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "0",
+            "tcp.completeness.ack": "0",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "[ Null ]"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1889755915",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2974691803",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "路路路路路路路A路路路路"
+          },
+          "tcp.window_size_value": "21",
+          "tcp.window_size": "21",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xedad",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.stream.client.contiguity_count": "0",
+          "tcp.stream.server.contiguity_count": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-07-18",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{CD5770EC-40D1-4639-B277-7940F4C24DFB}",
+            "frame.interface_description": "WLAN"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-07-18T03:06:58.439832000Z",
+          "frame.time_utc": "2025-07-18T03:06:58.439832000Z",
+          "frame.time_epoch": "2025-07-18T03:06:58.439832000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000073000",
+          "frame.time_delta_displayed": "0.000073000",
+          "frame.time_relative": "0.000073000",
+          "frame.number": "2",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp"
+        },
+        "eth": {
+          "eth.dst": "e0:5d:54:12:5c:2e",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RuijieNetwor_12:5c:2e",
+            "eth.dst.oui": "14703956",
+            "eth.dst.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "e0:5d:54:12:5c:2e",
+            "eth.addr_resolved": "RuijieNetwor_12:5c:2e",
+            "eth.addr.oui": "14703956",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "4c:5f:70:01:1e:13",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_01:1e:13",
+            "eth.src.oui": "5005168",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "4c:5f:70:01:1e:13",
+            "eth.addr_resolved": "Intel_01:1e:13",
+            "eth.addr.oui": "5005168",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0xc21b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.110.202",
+          "ip.addr": "192.168.110.202",
+          "ip.src_host": "192.168.110.202",
+          "ip.host": "192.168.110.202",
+          "ip.dst": "122.195.90.178",
+          "ip.addr": "122.195.90.178",
+          "ip.dst_host": "122.195.90.178",
+          "ip.host": "122.195.90.178",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "59326",
+          "tcp.dstport": "7826",
+          "tcp.port": "59326",
+          "tcp.port": "7826",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "2",
+          "tcp.completeness": "4",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "0",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "路路路A路路"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2974691803",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "2",
+          "tcp.ack_raw": "1889755916",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "路路路路路路路A路路路路"
+          },
+          "tcp.window_size_value": "255",
+          "tcp.window_size": "255",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x0503",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000073000",
+            "tcp.time_delta": "0.000073000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.flags": {
+              "_ws.expert": {
+                "tcp.analysis.ack_lost_segment": "",
+                "_ws.expert.message": "ACKed segment that wasn't captured (common at capture start)",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "33554432"
+              }
+            }
+          },
+          "tcp.stream.client.contiguity_count": "0",
+          "tcp.stream.server.contiguity_count": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-07-18",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{CD5770EC-40D1-4639-B277-7940F4C24DFB}",
+            "frame.interface_description": "WLAN"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-07-18T03:06:58.468047000Z",
+          "frame.time_utc": "2025-07-18T03:06:58.468047000Z",
+          "frame.time_epoch": "2025-07-18T03:06:58.468047000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.028215000",
+          "frame.time_delta_displayed": "0.028215000",
+          "frame.time_relative": "0.028288000",
+          "frame.number": "3",
+          "frame.len": "54",
+          "frame.cap_len": "54",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp"
+        },
+        "eth": {
+          "eth.dst": "e0:5d:54:12:5c:2e",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RuijieNetwor_12:5c:2e",
+            "eth.dst.oui": "14703956",
+            "eth.dst.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "e0:5d:54:12:5c:2e",
+            "eth.addr_resolved": "RuijieNetwor_12:5c:2e",
+            "eth.addr.oui": "14703956",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "4c:5f:70:01:1e:13",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_01:1e:13",
+            "eth.src.oui": "5005168",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "4c:5f:70:01:1e:13",
+            "eth.addr_resolved": "Intel_01:1e:13",
+            "eth.addr.oui": "5005168",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.id": "0x8fbe",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.110.202",
+          "ip.addr": "192.168.110.202",
+          "ip.src_host": "192.168.110.202",
+          "ip.host": "192.168.110.202",
+          "ip.dst": "39.156.126.229",
+          "ip.addr": "39.156.126.229",
+          "ip.dst_host": "39.156.126.229",
+          "ip.host": "39.156.126.229",
+          "ip.stream": "1"
+        },
+        "tcp": {
+          "tcp.srcport": "59242",
+          "tcp.dstport": "80",
+          "tcp.port": "59242",
+          "tcp.port": "80",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "1",
+          "tcp.completeness": "0",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "0",
+            "tcp.completeness.ack": "0",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "[ Null ]"
+          },
+          "tcp.len": "0",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2480196579",
+          "tcp.nxtseq": "1",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3745018123",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0010",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "0",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "路路路路路路路A路路路路"
+          },
+          "tcp.window_size_value": "254",
+          "tcp.window_size": "254",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0xd60e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.000000000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.stream.client.contiguity_count": "0",
+          "tcp.stream.server.contiguity_count": "0"
+        }
+      }
+    }
+  }
+]
